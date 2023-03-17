@@ -15,7 +15,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>Vista Jatí</title>
+        <title>Vista Jataí</title>
       </Head>
       <LayoutProvider>
         <Component {...pageProps} />
