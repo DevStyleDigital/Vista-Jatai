@@ -22,6 +22,7 @@ export const WhatsappStyle = styled.a`
   gap: 1rem;
   text-transform: uppercase;
   @media (max-width: 1024px) {
+    max-width: 54px;
     padding: 0.5rem;
     svg {
       width: 80%;
