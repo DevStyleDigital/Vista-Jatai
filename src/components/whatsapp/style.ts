@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const WhatsappStyle = styled.a`
+  width: auto;
   padding: 1rem 1rem;
   background: #67747d;
   font-family: var(--font-primary);
