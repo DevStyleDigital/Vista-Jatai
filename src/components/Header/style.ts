@@ -29,21 +29,19 @@ export const HeaderStyle = styled.header`
       height: 35px;
       background: var(--color-background-cobre);
     }
-    @media (max-width: 1023px) {
+    @media (max-width: 1024px) {
       display: none;
     }
-  }
-  @media (max-width: 1023px) {
-    padding: 2rem 0;
-    justify-content: center;
   }
   @media (max-width: 1440px) {
     padding: 1.5rem 2rem;
   }
   @media (max-width: 1100px) {
     padding: 2rem 1rem;
-    nav {
-      gap: 1rem;
-    }
+    justify-content: center;
+  }
+  @media (max-width: 600px) {
+    padding: 1rem;
+    justify-content: center;
   }
 `;
