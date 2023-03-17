@@ -4,7 +4,7 @@ import { WhatsappStyle } from './style';
 const Whatsapp = () => {
   return (
     <WhatsappStyle
-      href="https://api.whatsapp.com/send?phone=5515997109002"
+      href="https://api.whatsapp.com/send?phone=5515998508929"
       target="e_blank"
       id="button-whatsapp"
     >
