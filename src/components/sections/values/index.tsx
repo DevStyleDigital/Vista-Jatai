@@ -12,7 +12,7 @@ const ValuesSection = () => {
           + de <span>8.500 m²</span> de área verde no entorno
         </div>
         <span className="line" />
-        <a href="#form">Falar com um especialista</a>
+        <a href="#contato">Falar com um especialista</a>
       </div>
     </ValueSectionStyle>
   );

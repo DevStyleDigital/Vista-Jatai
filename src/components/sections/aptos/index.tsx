@@ -27,7 +27,7 @@ const AptosSection = () => {
               {item.size}
               <div className="line" />
             </div>
-            <Link href="/">Agende sua visita ao Decorado</Link>
+            <Link href="#contato">Agende sua visita ao Decorado</Link>
             <div className="content">
               <span>{item.detalhes.suite}</span>
               <span>{item.detalhes.vagas}</span>

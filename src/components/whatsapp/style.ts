@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const WhatsappStyle = styled.a`
   width: auto;
   padding: 1rem 1rem;
+  max-width: 124px;
   background: #67747d;
   font-family: var(--font-primary);
   font-size: 1rem;
@@ -20,7 +21,7 @@ export const WhatsappStyle = styled.a`
   align-items: center;
   gap: 1rem;
   text-transform: uppercase;
-  @media (max-width: 1023px) {
+  @media (max-width: 1024px) {
     padding: 0.5rem;
     svg {
       width: 80%;

@@ -10,7 +10,7 @@ const ItemsSection = () => {
         <span className="line" />
         <div className="values">Ambientes entregues equipados e decorados</div>
         <span className="line" />
-        <a href="#form">Falar com um especialista</a>
+        <a href="#contato">Falar com um especialista</a>
       </div>
     </ItemsSectionStyle>
   );
