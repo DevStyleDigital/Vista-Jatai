@@ -1,15 +1,17 @@
 import WhatsSvg from 'assets/svg/whats';
+import Link from 'next/link';
 import { WhatsappStyle } from './style';
 
 const Whatsapp = () => {
   return (
-    <WhatsappStyle
-      href="https://api.whatsapp.com/send?phone=5515998508929"
-      target="e_blank"
-      id="button-whatsapp"
-    >
-      <WhatsSvg />
-      <span>Whatsapp</span>
+    <WhatsappStyle id="button-whatsapp">
+      <Link
+        href="https://api.whatsapp.com/send?phone=5515998508929"
+        target="e_blank"
+      >
+        <WhatsSvg />
+        <span>Whatsapp</span>
+      </Link>
     </WhatsappStyle>
   );
 };
