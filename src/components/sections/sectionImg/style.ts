@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const SectionImgStyle = styled.div`
   width: 100%;
   height: auto;
-  padding: 3rem 5rem;
+  padding: 2rem 5rem;
   background: var(--color-background-lightVinho);
   display: flex;
   justify-content: center;
@@ -18,9 +18,10 @@ export const SectionImgStyle = styled.div`
   }
   @media (max-width: 963px) {
     padding: 0;
-    height: 250px;
+    height: 480px;
     img {
       object-fit: cover;
+      object-position: left;
     }
   }
 `;

@@ -63,6 +63,23 @@ const RootCSS = createGlobalStyle`
     color: white;
   }
 
+  .swiper{
+      overflow-y:auto;
+      overflow-x: hidden;
+  }
+
+  .swiper-pagination{
+      margin-top: 16px !important;
+      position: initial;
+  }
+
+  .swiper-pagination-bullet{
+    margin: 8px !important;
+  }
+  .swiper-pagination-bullet-active{
+    background: white;
+  }
+
   .mob-visible {
     display: none;
     @media (max-width: ${({ theme }) => theme.mediaQueries.maxMobile}) {

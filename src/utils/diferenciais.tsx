@@ -26,6 +26,7 @@ import Selo from 'assets/svg/Selo';
 import Portas from 'assets/svg/Portas';
 import Molhada from 'assets/svg/Molhada';
 import Adaptavel from 'assets/svg/adaptavel';
+import Sensor from 'assets/svg/sensor';
 
 export const DiferenciaisList: iDiferenciais[] = [
   {
@@ -117,7 +118,7 @@ export const DiferenciaisList: iDiferenciais[] = [
       {
         id: '63',
         label: 'Sensores de presença nas áreas comuns',
-        icon: <Acelerador />,
+        icon: <Sensor />,
       },
       {
         id: '73',
@@ -132,7 +133,7 @@ export const DiferenciaisList: iDiferenciais[] = [
       {
         id: '93',
         label: 'Medição de gás por torre',
-        icon: <Torres />,
+        icon: <Acelerador />,
       },
     ],
   },
@@ -192,7 +193,7 @@ export const DiferenciaisList: iDiferenciais[] = [
       },
       {
         id: '104',
-        label: 'Áreas molhadas impermeabilizada (cozinha, box e varanda)',
+        label: 'Áreas molhadas impermeabilizadas (cozinha, box e varanda)',
         icon: <Molhada />,
       },
       {

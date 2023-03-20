@@ -17,6 +17,6 @@ export const CarroselStyle = styled.div`
     }
   }
   @media (max-width: 963px) {
-    padding: 0.5rem;
+    padding: 1rem 0.5rem;
   }
 `;
